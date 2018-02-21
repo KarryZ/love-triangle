@@ -23,7 +23,7 @@ function getLoveTrianglesCount(preferences=[]) {
 		//	alert(index3 +"=="+ preferences[i])
 			if(preferences[index3] == i) count++;
     }
-    return count;
+    return Math.round(count/3);
 };
 //var arr = [2, 3, 1];
 //getLoveTrianglesCount(arr);
